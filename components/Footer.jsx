@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
         </Row>
 
-        <Carousel>{getCarouselDetails()}</Carousel>
+        <Carousel indicators="false">{getCarouselDetails()}</Carousel>
 
         {/*    ******Previous-Next-Icon*********
         
